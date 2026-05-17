@@ -1,11 +1,11 @@
 <?php
 
-require '../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-$config = require '/../config/mail.php';
+$config = require __DIR__ . '/../config/mail.php';
 
 
 function sendEmail($toEmail, $toName, $subject, $body) {
