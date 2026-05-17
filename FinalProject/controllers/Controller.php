@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once "../bl/UserManager.php";
+require_once "../helper/send.php";
 
 $usermanager = new UserManager();
 
