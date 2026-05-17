@@ -17,7 +17,7 @@ function sendEmail($toEmail, $toName, $subject, $body) {
         $mail->Host = $config['host'];
         $mail->SMTPAuth = true;
         $mail->Username = $config['username'];
-        $mail->Password = $config['passwod'];
+        $mail->Password = $config['password'];
         $mail->SMTPSecure = $config['encryption'];
         $mail->Port = $config['port'];
 
